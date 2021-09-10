@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Almarai', sans-serif;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -11,11 +15,7 @@
 }
 
 header{
-    width: 100%;
-    background-color: rgb(49, 97, 224);
-    background-image: url(./img/jumbo.png);
-    background-size: 100%;
-    background-position: center;
+    background-color: rgb(42, 94, 232);
     color: white;
 }
 
@@ -32,10 +32,14 @@ header, main, footer{
     width: 70%;
 }
 
+
+/* header */
+
 .logo_h, nav, .badge_top{
     height: 68px;
     line-height: 68px;
     vertical-align: center;
+    font-size: small;
 }
 
 .logo_h{
@@ -56,6 +60,7 @@ a{
 
 nav > a{
     color: white;
+    margin: 0 19px;
 }
 
 .badge_top{
@@ -64,24 +69,74 @@ nav > a{
     text-align: right;
 }
 
-span > a{
+.badge_top a{
+    background-color: white;
     color: black;
-    padding: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+.sfondo_header{
+    background-image: url(./img/jumbo.png);
+    background-size: 100%;
+    background-position: top;
+
 }
 
 .presentazione{
     width: 50%;
     text-align: center;
-    padding: 80px 50px 120px;
+    padding: 80px 60px 120px;
+}
+
+.presentazione > span{
+    display: inline-block;
+    margin: 20px 5px;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+.download{
+    background-color: white;
+}
+
+.download a{
+    color: black;
+}
+
+.open{
+    background-color: black;
+}
+
+.open a{
+    color: white;
+}
+
+h1{
+    margin-bottom: 38px;
+    font-size: 3.3rem;
 }
 
 p{
-    margin: 35px 0 22px;
+    line-height: 26px;
 }
 
+/* /header */
+
+
+
+
+.section_main .clearfix{
+    padding: 100px 0;
+}
 .colonna_img{
     float: left;
     width: 66%;
+}
+img{
+    width: 90%;
 }
 .colonna_text{
     float: left;
@@ -110,53 +165,21 @@ p{
 
 /* debug */
 
-/* .debug header{
-    height: 500px;
-    background-color: aqua;
-} */
 
-/* .debug .top{
-    width: 70%;
-    height: 50px;
-    margin: auto;
-} */
 
-/* .debug .logo_h{
-    height: 50px;
-    background-color: rebeccapurple;
-}
- */
-/* .debug nav{
-    height: 50px;
-    background-color: blue;
-}
-
-.debug .badge_top{
-    height: 50px;
-    background-color: fuchsia;
-}
- */
-/* .debug .presentazione{
-    width: 50%;
-    height: 250px;
-    margin: 100px auto;
-    background-color: violet;
-} */
-/* /debug_header */
-
-.debug .section_main{
+/* .debug .section_main{
     width: 100%;
     height: 500px;
     background-color: wheat;
 }
-
+ */
 .debug main .clearfix{
     width: 70%;
     height: 400px;
     margin: auto;
 }
 
-.debug .colonna_img{
+/* .debug .colonna_img{
     height: 100%;
     background-color: chartreuse;
 }
@@ -165,7 +188,7 @@ p{
     height: 100%;
     background-color: coral;
 }
-
+ */
 .debug .container{
     width: 70%;
     height: 500px;
