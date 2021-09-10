@@ -4,3 +4,182 @@
     padding: 0;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header{
+    width: 100%;
+}
+
+main{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+}
+
+.clearfix, .presentazione, .container{
+    width: 70%;
+    margin: auto;
+}
+
+.logo_h{
+    float: left;
+    width: 15%;
+}
+
+nav{
+    float: left;
+    width: 70%;
+}
+
+.badge_top{
+    float: left;
+    width: 15%;
+}
+
+.colonna_img{
+    float: left;
+    width: 66%;
+}
+.colonna_text{
+    float: left;
+    width: 34%;
+}
+
+.spot{
+    float: left;
+    width: 33%;
+}
+
+.link{
+    float: left;
+    width: 16.75%;
+}
+
+.logo_f{
+    float: left;
+    width: 50%;
+}
+
+.badge{
+    float: left;
+    width: 50%;
+}
+
+/* debug */
+
+.debug header{
+    height: 500px;
+    background-color: aqua;
+}
+
+.debug .top{
+    width: 70%;
+    height: 50px;
+    margin: auto;
+}
+
+.debug .logo_h{
+    height: 50px;
+    background-color: rebeccapurple;
+}
+
+.debug nav{
+    height: 50px;
+    background-color: blue;
+}
+
+.debug .badge_top{
+    height: 50px;
+    background-color: fuchsia;
+}
+
+.debug .presentazione{
+    width: 50%;
+    height: 250px;
+    margin: 100px auto;
+    background-color: violet;
+}
+/* /debug_header */
+
+.debug .section_main{
+    width: 100%;
+    height: 500px;
+    background-color: wheat;
+}
+
+.debug main .clearfix{
+    width: 70%;
+    height: 400px;
+    margin: auto;
+}
+
+.debug .colonna_img{
+    height: 100%;
+    background-color: chartreuse;
+}
+
+.debug .colonna_text{
+    height: 100%;
+    background-color: coral;
+}
+
+.debug .container{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+}
+
+.debug .bottom_top{
+    height: 100px;
+    background-color: lime;
+}
+
+.debug .bottom_middle{
+    height: 300px;
+    background-color: limegreen;
+}
+
+.debug .bottom_bottom{
+    height: 100px;
+    background-color: yellowgreen;
+}
+
+/* /debug_main */
+
+.debug .spot{
+    height: 300px;
+    background-color: teal;
+}
+
+.debug .link{
+    height: 300px;
+}
+
+.debug .prodotto{
+    background-color: thistle;
+}
+.debug .compagnia{
+    background-color: tomato;
+}
+.debug .risorse{
+    background-color: turquoise;
+}
+.debug .norme{
+    background-color: tan;
+}
+
+.debug .logo_f{
+    background-color: firebrick;
+    height: 50px;
+}
+
+.debug .badge_f{
+    background-color: forestgreen;
+    height: 50px;
+}
