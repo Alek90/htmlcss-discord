@@ -12,34 +12,71 @@
 
 header{
     width: 100%;
+    background-color: rgb(49, 97, 224);
+    background-image: url(./img/jumbo.png);
+    background-size: 100%;
+    background-position: center;
+    color: white;
 }
 
-main{
+header, main, footer{
     width: 100%;
 }
 
-footer{
-    width: 100%;
-}
 
 .clearfix, .presentazione, .container{
-    width: 70%;
     margin: auto;
+}
+
+.clearfix, .container{
+    width: 70%;
+}
+
+.logo_h, nav, .badge_top{
+    height: 68px;
+    line-height: 68px;
+    vertical-align: center;
 }
 
 .logo_h{
     float: left;
-    width: 15%;
+    width: 13%;
+    text-align: left;
 }
 
 nav{
     float: left;
-    width: 70%;
+    width: 74%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav > a{
+    color: white;
 }
 
 .badge_top{
     float: left;
-    width: 15%;
+    width: 13%;
+    text-align: right;
+}
+
+span > a{
+    color: black;
+    padding: 20px;
+}
+
+.presentazione{
+    width: 50%;
+    text-align: center;
+    padding: 80px 50px 120px;
+}
+
+p{
+    margin: 35px 0 22px;
 }
 
 .colonna_img{
@@ -73,23 +110,23 @@ nav{
 
 /* debug */
 
-.debug header{
+/* .debug header{
     height: 500px;
     background-color: aqua;
-}
+} */
 
-.debug .top{
+/* .debug .top{
     width: 70%;
     height: 50px;
     margin: auto;
-}
+} */
 
-.debug .logo_h{
+/* .debug .logo_h{
     height: 50px;
     background-color: rebeccapurple;
 }
-
-.debug nav{
+ */
+/* .debug nav{
     height: 50px;
     background-color: blue;
 }
@@ -98,13 +135,13 @@ nav{
     height: 50px;
     background-color: fuchsia;
 }
-
-.debug .presentazione{
+ */
+/* .debug .presentazione{
     width: 50%;
     height: 250px;
     margin: 100px auto;
     background-color: violet;
-}
+} */
 /* /debug_header */
 
 .debug .section_main{
