@@ -166,12 +166,17 @@ h2{
 }
 
 h3{
+    width: 70%;
+    margin: 0 auto 50px;
+    padding: 30px;
+    background-image: url(./img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
     font-size: 2rem;
-    margin-bottom: 50px;
 }
 .login a{
     padding: 15px;
-    background-color: blue;
+    background-color: rgb(142, 161, 225);
     color: white;
     border-radius: 28px;
 }
