@@ -126,7 +126,7 @@ p{
 /* /header */
 
 
-
+/* main */
 
 .section_main .clearfix{
     padding: 100px 0;
@@ -141,6 +141,12 @@ img{
 .colonna_text{
     float: left;
     width: 34%;
+    padding: 28px 15px;
+}
+
+.colonna_text h2{
+    font-size: 2.8rem;
+    margin-bottom: 25px;
 }
 
 .spot{
@@ -163,6 +169,11 @@ img{
     width: 50%;
 }
 
+
+/* /main */
+
+
+
 /* debug */
 
 
@@ -173,11 +184,11 @@ img{
     background-color: wheat;
 }
  */
-.debug main .clearfix{
+/* .debug main .clearfix{
     width: 70%;
     height: 400px;
     margin: auto;
-}
+} */
 
 /* .debug .colonna_img{
     height: 100%;
