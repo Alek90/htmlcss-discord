@@ -149,6 +149,10 @@ img{
     margin-bottom: 25px;
 }
 
+.voice img{
+    margin-left: 70px;
+}
+
 .spot{
     float: left;
     width: 33%;
