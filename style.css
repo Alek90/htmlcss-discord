@@ -135,7 +135,7 @@ p{
     float: left;
     width: 66%;
 }
-img{
+colonna_img img{
     width: 90%;
 }
 .colonna_text{
@@ -144,13 +144,36 @@ img{
     padding: 28px 15px;
 }
 
-.colonna_text h2{
+h2{
     font-size: 2.8rem;
     margin-bottom: 25px;
 }
 
 .voice img{
     margin-left: 70px;
+}
+
+.container{
+    text-align: center;
+}
+
+.container section{
+    padding: 70px;
+}
+
+.container img{
+    width: 1050px;
+}
+
+h3{
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+.login a{
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 28px;
 }
 
 .spot{
@@ -204,26 +227,7 @@ img{
     background-color: coral;
 }
  */
-.debug .container{
-    width: 70%;
-    height: 500px;
-    margin: auto;
-}
 
-.debug .bottom_top{
-    height: 100px;
-    background-color: lime;
-}
-
-.debug .bottom_middle{
-    height: 300px;
-    background-color: limegreen;
-}
-
-.debug .bottom_bottom{
-    height: 100px;
-    background-color: yellowgreen;
-}
 
 /* /debug_main */
 
