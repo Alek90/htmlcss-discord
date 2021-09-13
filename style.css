@@ -35,21 +35,27 @@ header, main, footer{
 
 /* header */
 
-.logo_h, nav, .badge_top{
+.logo, nav, .badge{
+    float: left;
     height: 68px;
     line-height: 68px;
     vertical-align: center;
-    font-size: small;
-}
+/*     font-size: small;
+ */}
 
-.logo_h{
-    float: left;
+.brand{
+    width: 100px;
+    height: 68px;
+    line-height: 68px;
+    vertical-align: center;
+ }
+
+header .logo{
     width: 13%;
     text-align: left;
 }
 
 nav{
-    float: left;
     width: 74%;
     text-align: center;
 }
@@ -63,17 +69,19 @@ nav > a{
     margin: 0 19px;
 }
 
-.badge_top{
-    float: left;
+header .badge{
     width: 13%;
     text-align: right;
 }
 
-.badge_top a{
+.badge a{
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+header .badge a{
     background-color: white;
     color: black;
-    border-radius: 20px;
-    padding: 10px;
 }
 
 
@@ -93,8 +101,8 @@ nav > a{
 
 .presentazione > span{
     display: inline-block;
-    margin: 20px 5px;
-    padding: 10px 25px;
+    margin: 20px 10px;
+    padding: 15px 25px;
     border-radius: 25px;
 }
 
@@ -243,16 +251,21 @@ dd > a{
     color: white;
 }
 
-.logo_f{
-    float: left;
+footer .logo{
     width: 50%;
 }
 
 
 
-.badge{
-    float: left;
+footer .badge{
     width: 50%;
+    text-align: right;
+}
+
+footer .badge a{
+    background-color: rgb(142, 161, 225);
+    color: white;
+
 }
 
 /* /footer */
